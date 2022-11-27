@@ -1,0 +1,65 @@
+.l-footer {
+    background: #FDEEE3;
+
+    &__title {
+        font-size: rem(24);
+        font-weight: 900;
+    }
+    &__contact {
+        gap: 20px;
+        margin-bottom: 20px;
+        
+        .mail {
+            font-weight: 500;
+            color: black;
+        }
+    }
+    
+
+    &__description {
+        color: #707070;
+        
+    }
+    
+    &__info {
+        font-weight: 500;
+        line-height: 24px; 
+    }
+    a {
+        text-decoration: none;
+        color: #707070;
+        
+    }
+    a:hover {
+        color: #F27822 ;
+        font-weight: 500;
+    }
+}
+.f-footer__institutional--rigth {
+    justify-content: end;
+}
+
+.f-copyright {
+    background: #FDEEE3;
+    padding: 50px ;
+
+    &__copy {
+        text-decoration: none;
+        font-size: 14px;
+        a {
+            color: #F27822;
+            text-decoration: none;
+            font-weight: 600;
+        }
+        a:hover {
+            color: #3f3f3f;
+        }
+    }
+    &__icon a {
+        padding: 8px;
+
+        a:hover {
+            background: #e4660d;
+        }
+    }
+}

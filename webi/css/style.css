@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;900&display=swap");
+body {
+  font-family: 'Inter', sans-serif;
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: 0;
+          box-sizing: 0;
+}
+
+.l-header {
+  background: #FDEEE3;
+  width: 100%;
+}
+
+.l-header__button {
+  background: #F27822;
+  padding: 15px 24px;
+  border: none;
+  border-radius: 5px;
+}
+
+.l-footer {
+  background: #FDEEE3;
+}
+
+.l-footer__title {
+  font-size: rem(24);
+  font-weight: 900;
+}
+
+.l-footer__contact {
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+.l-footer__contact .mail {
+  font-weight: 500;
+  color: black;
+}
+
+.l-footer__description {
+  color: #707070;
+}
+
+.l-footer__info {
+  font-weight: 500;
+  line-height: 24px;
+}
+
+.l-footer a {
+  text-decoration: none;
+  color: #707070;
+}
+
+.l-footer a:hover {
+  color: #F27822;
+  font-weight: 500;
+}
+
+.f-footer__institutional--rigth {
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+}
+
+.f-copyright {
+  background: #FDEEE3;
+  padding: 50px;
+}
+
+.f-copyright__copy {
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.f-copyright__copy a {
+  color: #F27822;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.f-copyright__copy a:hover {
+  color: #3f3f3f;
+}
+
+.f-copyright__icon a {
+  padding: 8px;
+}
+
+.f-copyright__icon a a:hover {
+  background: #e4660d;
+}
+/*# sourceMappingURL=style.css.map */
